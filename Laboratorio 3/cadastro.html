@@ -1,0 +1,93 @@
+<!DOCTYPE>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Cinemark - Cadastro</title>
+    <header>Cadastro</header>
+    <link rel="stylesheet" href="/style.css">
+</head>
+
+<body class="bodyCadastro">
+    <br>
+    <section id="form-subs">
+        <form name="Cadastro" action="resultado_cadastro.html">
+            <label for="nome">Nome:</label><br>
+            <input type="text" id="nome" name="nome"><br><br>
+    
+            <label for="data_nasc">Data de nascimento:</label><br>
+            <input type="date" id="data_nasc" name="data_nasc"><br><br>
+    
+            <label for="telefone">Contato:</label><br>
+            <input type="tel" id="telefone" name="telefone"><br><br>
+    
+            <label for="adesao">Data de adesão:</label><br>
+            <input type="date" id="adesao" name="adesao"><br><br>
+      
+            <label for="numero">Numero de filmes que pretende assistir por semana:</label><br>
+            <label for="vol">Quantidade (entre 0 e 7):</label>
+            <input type="range" id="numero" name="numero" min="0" max="8"><br><br>
+    
+            <label for="cor">Cor de preferência:</label><br>
+            Selecione apenas uma cor, em caso de múltipla seleção será utilizado a cor padrão.
+            <br>
+            <input type="checkbox" id="vermelho" name="vermelho" value="Vermelho">
+            <label for="vermelho"> Vermelho </label><br>
+            <input type="checkbox" id="amarelo" name="amarelo" value="Amarelo">
+            <label for="amarelo"> Amarelo</label><br>
+            <input type="checkbox" id="azul" name="azul" value="Azul">
+            <label for="azul"> Azul</label><br><br>
+    
+            <label for="pagina">Página pessoal:</label><br>
+            <input type="url" id="pagina" name="pagina"><br><br>
+    
+            <label for="data_cupom">Data e hora do primeiro cupom:</label><br>
+            <input type="datetime-local" id="data_cupom" name="data_cupom"><br><br>
+    
+            <label for="color">Gêneros preferidos:</label><br>
+            <label>Ação</label><br>
+            <label for="acao"> Propoção (entre 0 e 100):</label>
+            <input type="range" id="acao" name="acao" min="0" max="100"><br><br>
+    
+            <label>Drama</label><br>
+            <label for="drama"> Propoção (entre 0 e 100):</label>
+            <input type="range" id="drama" name="drama" min="0" max="100"><br><br>
+    
+            <label>Romance</label><br>
+            <label for="romance"> Propoção (entre 0 e 100):</label>
+            <input type="range" id="romance" name="romance" min="0" max="100"><br><br>
+    
+            <label>Comédia</label><br>
+            <label for="comedia"> Propoção (entre 0 e 100):</label>
+            <input type="range" id="comedia" name="comedia" min="0" max="100"><br><br>
+    
+            <label>Suspense</label><br>
+            <label for="suspense"> Propoção (entre 0 e 100):</label>
+            <input type="range" id="suspense" name="suspense" min="0" max="100"><br><br>
+    
+            <label>Terror</label><br>
+            <label for="acao"> Propoção (entre 0 e 100):</label>
+            <input type="range" id="acao" name="acao" min="0" max="100"><br><br>
+    
+            <label>Ficção científica</label><br>
+            <label for="terror"> Propoção (entre 0 e 100):</label>
+            <input type="range" id="terror" name="terror" min="0" max="100"><br><br>
+    
+            <input type="submit" value="Cadastrar">
+        </form>
+    </section>
+</body>
+
+<footer>
+    <h3>
+        Contatos
+    </h3>   
+    <p>Email: cinemark@cine.com</p>
+    <p>WhatsApp: (14) 98129-6855</p>
+    <p>Instagram: @cinemark</p>
+    by: Samuel Pini Milanez
+    <br>
+    Matrícula: 397804
+</footer>
+
+</html>
