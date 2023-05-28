@@ -1,0 +1,47 @@
+@media (min-width: 320px) {
+    #customDiv {
+        background-color: black;
+    }
+}
+
+@media (min-width: 480px) {
+    #customDiv {
+        background-color: lightblue;
+    }
+}
+
+@media (min-width: 600px) {
+    #customDiv {
+        background-color: lightgreen;
+    }
+}
+
+@media (min-width: 768px) {
+    #customDiv {
+        background-color: lightyellow;
+    }
+}
+
+@media (min-width: 800px) {
+    #customDiv {
+        background-color: brown;
+    }
+}
+
+@media (min-width: 1024px) {
+    #customDiv {
+        background-color: darkblue;
+    }
+}
+
+@media (min-width: 1280px) {
+    #customDiv {
+        background-color: darkgreen;
+    }
+}
+
+@media (min-width: 1440px) {
+    #customDiv {
+        background-color: darkred;
+    }
+}

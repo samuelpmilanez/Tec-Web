@@ -1,0 +1,11 @@
+#customDiv {
+    display: none;
+    height: 400px;
+    background-color: blue;
+}
+
+@media (orientation: landscape) {
+    #customDiv {
+        display: block;
+    }
+}

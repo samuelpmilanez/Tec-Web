@@ -1,0 +1,87 @@
+
+.customDiv1 {
+    background-color: green;
+    height: 35vh;
+    width: calc(35vh * 0.75);
+    margin: 0 auto;
+}
+
+.customDiv2 {
+    background-color: lightblue;
+    height: 100px;
+    width: 100%;
+}
+
+.customDiv3 {
+    background-color: pink;
+    height: 100px;
+    width: 100%;
+}
+
+.customDiv4 {
+    background-color: pink;
+    height: 100px;
+    width: 100%;
+}
+
+.customDiv5 {
+    background-color: green;
+    height: 100px;
+    width: 100%;
+}
+
+@media only screen and (max-width: 767px) {
+
+    .customDiv1 {
+        display: block;
+    }
+
+    .customDiv2,
+    .customDiv3,
+    .customDiv4,
+    .customDiv5 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 768px) {
+
+    .customDiv1,
+    .customDiv2 {
+        display: inline-block;
+        vertical-align: top;
+    }
+
+    .customDiv1 {
+        width: calc(50% - 10px);
+    }
+
+    .customDiv2 {
+        width: calc(50% - 10px);
+    }
+
+    .customDiv3,
+    .customDiv4,
+    .customDiv5 {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 1200px) {
+    .customDiv1,
+    .customDiv2,
+    .customDiv3,
+    .customDiv4,
+    .customDiv5 {
+        display: block;
+        width: 100%;
+    }
+
+    .customDiv4 {
+        background-color: green;
+    }
+
+    .customDiv5 {
+        background-color: lightblue;
+    }
+}

@@ -1,0 +1,35 @@
+section{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+    column-gap: 2rem;
+    padding: 2rem;
+    align-items: center;
+}
+#customButtons{
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.5rem;
+}
+#description{
+    float: right;
+}
+img{
+    width: 100%;
+}
+
+@media (max-width:1200px) and (min-width:720px){
+    picture{
+        display: none;
+    }
+    section{
+        grid-template-columns: 1fr 2fr;
+    }
+}
+@media (max-width:720px) {
+    picture{
+        display: none;
+    }
+    section{
+        grid-template-columns: 1fr;
+    }
+}
